@@ -1,0 +1,513 @@
+{
+  "version": 135,
+  "blocks": [
+    {
+      "id": "26UJsahmQvIbuOo29kobREqCtRMsgIOw",
+      "blockLibrary": "core_BasicBlocks",
+      "blockType": "Constant",
+      "label": "Constant",
+      "x": 520,
+      "y": 240,
+      "rotation": 0,
+      "inputPorts": 0,
+      "outputPorts": 1,
+      "inputPortTypes": [],
+      "outputPortTypes": [
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        }
+      ],
+      "properties": {
+        "DataTypeCategory": {
+          "type": "options(Inherited, FullySupportedSignalValue)",
+          "value": "FullySupportedSignalValue"
+        },
+        "DataType": {
+          "type": "enum(FullySupportedSignalValueType)",
+          "value": "double"
+        },
+        "Value": {
+          "type": "DataType",
+          "value": 1
+        }
+      },
+      "blockRenderInformation": {
+        "shape": "square",
+        "icon": "",
+        "text": "Constant",
+        "show_image_and_text": false,
+        "figure": null,
+        "default_width": 140,
+        "default_height": 60,
+        "min_width": 60,
+        "min_height": 20,
+        "max_width": 360,
+        "max_height": 160,
+        "input_ports": 0,
+        "output_ports": 1,
+        "input_port_types": [],
+        "output_port_types": [
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          }
+        ],
+        "input_port_labels": [],
+        "output_port_labels": [
+          null
+        ]
+      }
+    },
+    {
+      "id": "YYvILMrSVEkmmgBX2ZJtqSNMnV4FYhpN",
+      "blockLibrary": "core_BasicBlocks",
+      "blockType": "Gain",
+      "label": "Gain",
+      "x": 950,
+      "y": 280,
+      "rotation": 0,
+      "inputPorts": 1,
+      "outputPorts": 1,
+      "inputPortTypes": [
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        }
+      ],
+      "outputPortTypes": [
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        }
+      ],
+      "properties": {
+        "DataTypeCategory": {
+          "type": "options(Inherited, FullySupportedSignalValue)",
+          "value": "FullySupportedSignalValue"
+        },
+        "DataType": {
+          "type": "enum(FullySupportedSignalValueType)",
+          "value": "double"
+        },
+        "Gain": {
+          "type": "DataType",
+          "value": "k"
+        }
+      },
+      "blockRenderInformation": {
+        "shape": "triangle",
+        "icon": "",
+        "text": "Gain",
+        "show_image_and_text": false,
+        "figure": null,
+        "default_width": 140,
+        "default_height": 60,
+        "min_width": 60,
+        "min_height": 20,
+        "max_width": 360,
+        "max_height": 160,
+        "input_ports": 1,
+        "output_ports": 1,
+        "input_port_types": [
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          }
+        ],
+        "output_port_types": [
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          }
+        ],
+        "input_port_labels": [
+          null
+        ],
+        "output_port_labels": [
+          null
+        ]
+      }
+    },
+    {
+      "id": "Wf3WGglF7BMTI06uCwEnIfNZPwR4XGSP",
+      "blockLibrary": "core_BasicBlocks",
+      "blockType": "Adder",
+      "label": "Adder",
+      "x": 770,
+      "y": 280,
+      "rotation": 0,
+      "inputPorts": 2,
+      "outputPorts": 1,
+      "inputPortTypes": [
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        },
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        }
+      ],
+      "outputPortTypes": [
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        }
+      ],
+      "properties": {
+        "DataTypeCategory": {
+          "type": "options(Inherited, FullySupportedSignalValue)",
+          "value": "FullySupportedSignalValue"
+        },
+        "DataType": {
+          "type": "enum(FullySupportedSignalValueType)",
+          "value": "double"
+        },
+        "Gains": {
+          "type": "DataType[]",
+          "value": [
+            1,
+            -1
+          ]
+        }
+      },
+      "blockRenderInformation": {
+        "shape": "circle",
+        "icon": "",
+        "text": "Adder",
+        "show_image_and_text": false,
+        "figure": null,
+        "default_width": 140,
+        "default_height": 60,
+        "min_width": 60,
+        "min_height": 20,
+        "max_width": 360,
+        "max_height": 160,
+        "input_ports": 2,
+        "output_ports": 1,
+        "input_port_types": [
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          },
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          }
+        ],
+        "output_port_types": [
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          }
+        ],
+        "input_port_labels": [
+          "A",
+          "B"
+        ],
+        "output_port_labels": [
+          null
+        ]
+      }
+    },
+    {
+      "id": "u0SM4W0CAD1fefhtZlRRlVzeRc5Frrh9",
+      "blockLibrary": "core_BasicBlocks",
+      "blockType": "Integrator",
+      "label": "Integrator",
+      "x": 1150,
+      "y": 280,
+      "rotation": 0,
+      "inputPorts": 1,
+      "outputPorts": 1,
+      "inputPortTypes": [
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        }
+      ],
+      "outputPortTypes": [
+        {
+          "port_category": "FullySupportedSignalValue",
+          "inheritance_group": 0,
+          "signal_value_type": "double"
+        }
+      ],
+      "properties": {
+        "InitialValue": {
+          "type": "double",
+          "value": 0
+        },
+        "ContinuousSampleTimeGroup": {
+          "type": "int",
+          "value": 1
+        }
+      },
+      "blockRenderInformation": {
+        "shape": "square",
+        "icon": "",
+        "text": "Integrator",
+        "show_image_and_text": false,
+        "figure": null,
+        "default_width": 140,
+        "default_height": 60,
+        "min_width": 60,
+        "min_height": 20,
+        "max_width": 360,
+        "max_height": 160,
+        "input_ports": 1,
+        "output_ports": 1,
+        "input_port_types": [
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          }
+        ],
+        "output_port_types": [
+          {
+            "port_category": "FullySupportedSignalValue",
+            "inheritance_group": 0,
+            "signal_value_type": "double"
+          }
+        ],
+        "input_port_labels": [
+          null
+        ],
+        "output_port_labels": [
+          null
+        ]
+      }
+    },
+    {
+      "id": "qKK7aDejBzdccvxLawqkxhMRfuNID63v",
+      "blockLibrary": "scope_library",
+      "blockType": "scope",
+      "label": "scope",
+      "x": 1410,
+      "y": 280,
+      "rotation": 0,
+      "inputPorts": 1,
+      "outputPorts": 0,
+      "inputPortTypes": [
+        {
+          "port_category": "Inherited",
+          "inheritance_group": 0,
+          "supported_port_types_for_inheritance": [
+            "FullySupportedSignalValueType.Any"
+          ]
+        }
+      ],
+      "outputPortTypes": [],
+      "properties": {},
+      "blockRenderInformation": {
+        "shape": "square",
+        "icon": "",
+        "text": "scope",
+        "show_image_and_text": false,
+        "figure": null,
+        "default_width": 140,
+        "default_height": 60,
+        "min_width": 60,
+        "min_height": 20,
+        "max_width": 360,
+        "max_height": 160,
+        "input_ports": 1,
+        "output_ports": 0,
+        "input_port_types": [
+          {
+            "port_category": "Inherited",
+            "inheritance_group": 0,
+            "supported_port_types_for_inheritance": [
+              "FullySupportedSignalValueType.Any"
+            ]
+          }
+        ],
+        "output_port_types": [],
+        "input_port_labels": [
+          null
+        ],
+        "output_port_labels": []
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "txLQQGNFhXXF31nORv4rAyg5fJnzm24U",
+      "sourceId": "26UJsahmQvIbuOo29kobREqCtRMsgIOw",
+      "sourcePort": 0,
+      "sourceX": 660,
+      "sourceY": 270,
+      "targetNodes": {
+        "f8cSdxzrZOJ1KAAvkaanmaYjbp4Ccc5H": {
+          "targetId": "Wf3WGglF7BMTI06uCwEnIfNZPwR4XGSP",
+          "port": 0,
+          "x": 770,
+          "y": 300
+        }
+      },
+      "segmentNode": {
+        "id": "nDwgYfjFKxhQgOYDkw23KF9ZuzcrK8Q1",
+        "orientation": "Horizontal",
+        "xOrY": 270,
+        "children": [
+          {
+            "id": "tNIaUsV6PqurTqLyRNzQJepCzek8YX3R",
+            "orientation": "Vertical",
+            "xOrY": 710,
+            "children": [
+              {
+                "id": "f8cSdxzrZOJ1KAAvkaanmaYjbp4Ccc5H",
+                "orientation": "Horizontal",
+                "xOrY": 300,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BDGxCDoZT6C63fP31eUgcWTcSW28K4LK",
+      "sourceId": "Wf3WGglF7BMTI06uCwEnIfNZPwR4XGSP",
+      "sourcePort": 0,
+      "sourceX": 910,
+      "sourceY": 310,
+      "targetNodes": {
+        "rNOaLFekojH6Hro2Z24CxgiqlqK99Jjj": {
+          "targetId": "YYvILMrSVEkmmgBX2ZJtqSNMnV4FYhpN",
+          "port": 0,
+          "x": 950,
+          "y": 310
+        }
+      },
+      "segmentNode": {
+        "id": "rNOaLFekojH6Hro2Z24CxgiqlqK99Jjj",
+        "orientation": "Horizontal",
+        "xOrY": 310,
+        "children": []
+      }
+    },
+    {
+      "id": "7CMRHSReiMlBaOkxJmTtcQCclIxhElyt",
+      "sourceId": "YYvILMrSVEkmmgBX2ZJtqSNMnV4FYhpN",
+      "sourcePort": 0,
+      "sourceX": 1090,
+      "sourceY": 310,
+      "targetNodes": {
+        "Jkp6Ep217XJAVwkRsu6dRRDXJKlwgvCa": {
+          "targetId": "u0SM4W0CAD1fefhtZlRRlVzeRc5Frrh9",
+          "port": 0,
+          "x": 1150,
+          "y": 310
+        }
+      },
+      "segmentNode": {
+        "id": "Jkp6Ep217XJAVwkRsu6dRRDXJKlwgvCa",
+        "orientation": "Horizontal",
+        "xOrY": 310,
+        "children": []
+      }
+    },
+    {
+      "id": "qCbqRCVPYBld0GZO92XfA6PcD294Th7W",
+      "sourceId": "u0SM4W0CAD1fefhtZlRRlVzeRc5Frrh9",
+      "sourcePort": 0,
+      "sourceX": 1290,
+      "sourceY": 310,
+      "targetNodes": {
+        "vcl6K8geZH9cM39Xn3brkI19bZjhMc2Z": {
+          "targetId": "Wf3WGglF7BMTI06uCwEnIfNZPwR4XGSP",
+          "port": 1,
+          "x": 770,
+          "y": 320
+        },
+        "0wx4tRbLbEu16YeTUMhjeM9G9XW2Uh0E": {
+          "targetId": "qKK7aDejBzdccvxLawqkxhMRfuNID63v",
+          "port": 0,
+          "x": 1410,
+          "y": 310
+        }
+      },
+      "segmentNode": {
+        "id": "dBMrnthvdTNIK31P6NBAjS5Zc8vr8vIl",
+        "orientation": "Vertical",
+        "xOrY": 1290,
+        "children": [
+          {
+            "id": "VGpTi2KolZPijnJVGxHg08EAbGD67XIa",
+            "orientation": "Horizontal",
+            "xOrY": 310,
+            "children": [
+              {
+                "id": "IxN4GtadTp4Gfmd5MVUG5WNvp2rKiFha",
+                "orientation": "Horizontal",
+                "xOrY": 310,
+                "children": [
+                  {
+                    "id": "rGo3O5IunthVwHxCBWUZAGxa0zHhTGj8",
+                    "orientation": "Vertical",
+                    "xOrY": 1360,
+                    "children": [
+                      {
+                        "id": "ylzJ6oam8cFJ07iXbrhjv7XLe8baUKww",
+                        "orientation": "Horizontal",
+                        "xOrY": 430,
+                        "children": [
+                          {
+                            "id": "nkqmsUon31DglinYqZ0uPbujRkhnFiWz",
+                            "orientation": "Vertical",
+                            "xOrY": 720,
+                            "children": [
+                              {
+                                "id": "vcl6K8geZH9cM39Xn3brkI19bZjhMc2Z",
+                                "orientation": "Horizontal",
+                                "xOrY": 320,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "lWgW80yEHbLDQlyaavUtU8C005wqNTUH",
+                "orientation": "Vertical",
+                "xOrY": 1360,
+                "children": [
+                  {
+                    "id": "0wx4tRbLbEu16YeTUMhjeM9G9XW2Uh0E",
+                    "orientation": "Horizontal",
+                    "xOrY": 310,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "subsystems": [],
+  "simulation_configuration": "/home/pellousabiaga/pysyslink/PySysLinkExamples/getting_started/simulation_options.yaml",
+  "initialization_python_script_path": "/home/pellousabiaga/pysyslink/PySysLinkExamples/getting_started/init_script.py",
+  "toolkit_configuration_path": "/home/pellousabiaga/pysyslink/PySysLinkExamples/getting_started/toolkit_config.yaml"
+}

@@ -1,0 +1,19 @@
+StartTime: 0
+StopTime: 5
+RunInNaturalTime: false
+NaturalTimeSpeedMultiplier: 1
+SolversConfiguration:
+    default:
+        Type[string]: odeint
+        ControlledSolver[string]: rosenbrock4_controller
+        AbsoluteTolerance[double]: 1.0e-08
+        RelativeTolerance[double]: 1.0e-08
+BlockIdsInputOrOutputAndIndexesToLog: []
+PluginDirs:
+    - /usr/local/lib/pysyslink_plugins/block_type_supports
+PluginConfiguration:
+    BasicCppSupport/libraryPluginPath[string]: /usr/local/lib/pysyslink_plugins
+    BasicPythonSupport/pythonModulePaths[vector<string>]:
+        - ./
+SaveToJson: true
+OutputJsonFile: ./simulation_output.json
