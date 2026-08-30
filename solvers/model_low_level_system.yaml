@@ -1,0 +1,158 @@
+Blocks:
+- Id[string]: fpIgoiPj1L4sMjk7ACvedP3pCGdfj2aN
+  Name[string]: Scope scope Display 1
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Display
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 0
+  OutputPortTypes[vector<string>]: []
+- Id[string]: fpIgoiPj1L4sMjk7ACvedP3pCGdfj2aN_1
+  Name[string]: Scope scope Display 2
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Display
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 0
+  OutputPortTypes[vector<string>]: []
+- Id[string]: fpIgoiPj1L4sMjk7ACvedP3pCGdfj2aN_2
+  Name[string]: Scope scope Display 3
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Display
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 0
+  OutputPortTypes[vector<string>]: []
+- Id[string]: jDthpQhjH00XGgFXkRuwWpA9YMuLPkrK
+  Name[string]: Integrator
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Integrator
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 1
+  OutputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  InitialValue[double]: 1.0
+  ContinuousSampleTimeGroup[int]: 2
+- Id[string]: 0YHoMmVIVQqn2q5XTRytFlzzkffuKiXQ
+  Name[string]: Gain
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Gain
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 1
+  OutputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  DataTypeCategory[string]: FullySupportedSignalValue
+  DataType[string]: double
+  Gain[double]: -20.0
+- Id[string]: Xh9hB9jLJUyPQuX0zMdEioz1nA0vNEkG
+  Name[string]: Integrator
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Integrator
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 1
+  OutputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  InitialValue[double]: 1.0
+  ContinuousSampleTimeGroup[int]: 1
+- Id[string]: pZzlkzpiZeAwNo6q9kQROEreBgR1Bmms
+  Name[string]: Gain
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Gain
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 1
+  OutputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  DataTypeCategory[string]: FullySupportedSignalValue
+  DataType[string]: double
+  Gain[double]: -20.0
+- Id[string]: HwPgowm8wsQvbcWM4mu4HSYNziWpgOxo
+  Name[string]: Integrator
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Integrator
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 1
+  OutputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  InitialValue[double]: 1.0
+  ContinuousSampleTimeGroup[int]: 3
+- Id[string]: tRhyoLea1AiV3vfnK7AgFG9kamACo7hs
+  Name[string]: Gain
+  BlockType[string]: BasicCpp
+  BlockClass[string]: BasicBlocks/Gain
+  InputPortNumber[int]: 1
+  InputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  OutputPortNumber[int]: 1
+  OutputPortTypes[vector<string>]:
+  - FullySupportedSignalValue.double
+  DataTypeCategory[string]: FullySupportedSignalValue
+  DataType[string]: double
+  Gain[double]: -20.0
+Links:
+- Id[string]: M0mG38DlZfdv72XeGvnCW8V3BkSMhYzU_xUbCUnBViojGLxSL3M7pLIiv0nPwzoLO
+  Name[string]: M0mG38DlZfdv72XeGvnCW8V3BkSMhYzU_xUbCUnBViojGLxSL3M7pLIiv0nPwzoLO
+  SourceBlockId[string]: 0YHoMmVIVQqn2q5XTRytFlzzkffuKiXQ
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: jDthpQhjH00XGgFXkRuwWpA9YMuLPkrK
+  DestinationPortIdx[int]: 0
+- Id[string]: p0SckqZaqOTrCXRvJuUnE7Ij1YevAlUQ_zCN6byJr9Bt74815pzMlNlFEThRQfrLh
+  Name[string]: p0SckqZaqOTrCXRvJuUnE7Ij1YevAlUQ_zCN6byJr9Bt74815pzMlNlFEThRQfrLh
+  SourceBlockId[string]: jDthpQhjH00XGgFXkRuwWpA9YMuLPkrK
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: 0YHoMmVIVQqn2q5XTRytFlzzkffuKiXQ
+  DestinationPortIdx[int]: 0
+- Id[string]: p0SckqZaqOTrCXRvJuUnE7Ij1YevAlUQ_Mhdd5trFKNgztOPhRvHtaxCtYCpJPOpt
+  Name[string]: p0SckqZaqOTrCXRvJuUnE7Ij1YevAlUQ_Mhdd5trFKNgztOPhRvHtaxCtYCpJPOpt
+  SourceBlockId[string]: jDthpQhjH00XGgFXkRuwWpA9YMuLPkrK
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: fpIgoiPj1L4sMjk7ACvedP3pCGdfj2aN_1
+  DestinationPortIdx[int]: 0
+- Id[string]: FLbWm8Ut8pXNvSWH5vTszmK3O7pitvLj_uV2PsysFQwecOXpBS0zDvl5hHTou8cXA
+  Name[string]: FLbWm8Ut8pXNvSWH5vTszmK3O7pitvLj_uV2PsysFQwecOXpBS0zDvl5hHTou8cXA
+  SourceBlockId[string]: pZzlkzpiZeAwNo6q9kQROEreBgR1Bmms
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: Xh9hB9jLJUyPQuX0zMdEioz1nA0vNEkG
+  DestinationPortIdx[int]: 0
+- Id[string]: 4JAQhJbZjnBsU6IiT9VMJ7qgIoj89kv1_2Zso818V5PItTHwQYUpe4ccHLSNgCtyw
+  Name[string]: 4JAQhJbZjnBsU6IiT9VMJ7qgIoj89kv1_2Zso818V5PItTHwQYUpe4ccHLSNgCtyw
+  SourceBlockId[string]: Xh9hB9jLJUyPQuX0zMdEioz1nA0vNEkG
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: pZzlkzpiZeAwNo6q9kQROEreBgR1Bmms
+  DestinationPortIdx[int]: 0
+- Id[string]: 4JAQhJbZjnBsU6IiT9VMJ7qgIoj89kv1_vbGb2rdi2ebMvHw49CiOfxOclrSD5mpZ
+  Name[string]: 4JAQhJbZjnBsU6IiT9VMJ7qgIoj89kv1_vbGb2rdi2ebMvHw49CiOfxOclrSD5mpZ
+  SourceBlockId[string]: Xh9hB9jLJUyPQuX0zMdEioz1nA0vNEkG
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: fpIgoiPj1L4sMjk7ACvedP3pCGdfj2aN
+  DestinationPortIdx[int]: 0
+- Id[string]: niwxI0SgwUF7Yi62TOrsIoBOXueFuu9l_MqFlwL2iVa3vb6PO422xlMC8qRygOYm0
+  Name[string]: niwxI0SgwUF7Yi62TOrsIoBOXueFuu9l_MqFlwL2iVa3vb6PO422xlMC8qRygOYm0
+  SourceBlockId[string]: tRhyoLea1AiV3vfnK7AgFG9kamACo7hs
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: HwPgowm8wsQvbcWM4mu4HSYNziWpgOxo
+  DestinationPortIdx[int]: 0
+- Id[string]: CQTbKZ7KHoNScxUfD1vZEwIgj8T1CSKm_QuMccMQqEHPZywuDy85LA4D2bdWyERtk
+  Name[string]: CQTbKZ7KHoNScxUfD1vZEwIgj8T1CSKm_QuMccMQqEHPZywuDy85LA4D2bdWyERtk
+  SourceBlockId[string]: HwPgowm8wsQvbcWM4mu4HSYNziWpgOxo
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: tRhyoLea1AiV3vfnK7AgFG9kamACo7hs
+  DestinationPortIdx[int]: 0
+- Id[string]: CQTbKZ7KHoNScxUfD1vZEwIgj8T1CSKm_nSR4wmLFwzVMtHKprqLEKSDH8xr4VZSV
+  Name[string]: CQTbKZ7KHoNScxUfD1vZEwIgj8T1CSKm_nSR4wmLFwzVMtHKprqLEKSDH8xr4VZSV
+  SourceBlockId[string]: HwPgowm8wsQvbcWM4mu4HSYNziWpgOxo
+  SourcePortIdx[int]: 0
+  DestinationBlockId[string]: fpIgoiPj1L4sMjk7ACvedP3pCGdfj2aN_2
+  DestinationPortIdx[int]: 0

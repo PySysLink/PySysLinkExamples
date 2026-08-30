@@ -1,0 +1,27 @@
+StartTime: 0
+StopTime: 2
+RunInNaturalTime: false
+NaturalTimeSpeedMultiplier: 1
+SolversConfiguration:
+    1:
+        Type[string]: EulerForward
+        FirstTimeStep[double]: 0.102
+        ActivateEvents[bool]: false
+    2:
+        Type[string]: EulerBackward
+        FirstTimeStep[double]: 0.102
+        ActivateEvents[bool]: false
+    3:
+        Type[string]: EulerBackward
+        FirstTimeStep[double]: 0.001
+        ActivateEvents[bool]: false
+    
+BlockIdsInputOrOutputAndIndexesToLog: []
+PluginDirs:
+    - /usr/local/lib/pysyslink_plugins/block_type_supports
+PluginConfiguration:
+    BasicCppSupport/libraryPluginPath[string]: /usr/local/lib/pysyslink_plugins
+    BasicPythonSupport/pythonModulePaths[vector<string>]:
+        - ./
+SaveToJson: true
+OutputJsonFile: ./simulation_output.json
